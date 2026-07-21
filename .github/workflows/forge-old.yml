@@ -30,7 +30,7 @@ jobs:
           echo "expected: $EXPECTED_FORGE_SHA256"
           [ "$actual" = "$EXPECTED_FORGE_SHA256" ] || { echo "forge hash mismatch"; exit 1; }
       - name: Build with Foundry (old)
-        run: forge build --force
+        run: forge build --force --use 0.8.34
       - name: Export bytecode manifest (old)
         run: |
           mkdir -p compare
