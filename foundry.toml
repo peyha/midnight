@@ -19,7 +19,7 @@ exclude_lints = [
 
 [[profile.default.compilation_restrictions]]
 paths = "src/*libraries/*.sol"
-version = "0.8.34"
+version = ">=0.8.34"
 
 [[profile.default.compilation_restrictions]]
 paths = "src/imports/MorphoImport.sol"
