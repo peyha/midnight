@@ -21,7 +21,7 @@ jobs:
           version: v1.7.0
       - name: Verify forge executable hash
         env:
-          EXPECTED_FORGE_SHA256: 67bc0639252862679e95f0e552234209cb128a9f22cf545aafb1637be181bc63
+          EXPECTED_FORGE_SHA256: d15400d654462d005659f2f987e9c09c4b4cfb41795e0864a51d77c5a56361de
         run: |
           forge_path="$(which forge)"
           echo "forge path: $forge_path"
