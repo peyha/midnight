@@ -18,6 +18,10 @@ exclude_lints = [
 ]
 
 [[profile.default.compilation_restrictions]]
+paths = "src/libraries/UtilsLib.sol"
+version = "0.8.34"
+
+[[profile.default.compilation_restrictions]]
 paths = "src/imports/MorphoImport.sol"
 optimizer_runs = 999999
 evm_version = "paris"
@@ -26,3 +30,5 @@ evm_version = "paris"
 name = "999999-paris"
 optimizer_runs = 999999
 evm_version = "paris"
+
+
