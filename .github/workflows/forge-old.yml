@@ -18,7 +18,7 @@ jobs:
       - name: Install Foundry (old)
         uses: foundry-rs/foundry-toolchain@8789b3e21e6c11b2697f5eb56eddae542f746c10 # v1
         with:
-          version: v1.6.0-rc1
+          version: v1.7.0
       - name: Verify forge executable hash
         env:
           EXPECTED_FORGE_SHA256: 67bc0639252862679e95f0e552234209cb128a9f22cf545aafb1637be181bc63
